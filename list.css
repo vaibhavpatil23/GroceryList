@@ -1,0 +1,85 @@
+body {
+  background-image: url('linedpaper/linedpaper.png');
+  width: 600px;
+  margin: 0 auto;
+  padding: 0;
+  font-family: courier, monospace;
+}
+
+form {
+  color: #3498db;
+  font-size: 22px;
+}
+
+input[type="text"]{
+  background-color : #f8f8f8;
+}
+
+#addNeed {
+  height: 21px;
+  width: 52px;
+  margin: 2px 7px;
+  padding: 2px 6px;
+  background-color: #f8f8f8;
+  color: #c2185b;
+}
+
+#addHave {
+  height: 21px;
+  width: 52px;
+  margin: 2px 7px;
+  padding: 2px 6px;
+  background-color: #f8f8f8;
+  color: #c2185b;
+}
+
+h1 {
+  text-align: center;
+  color: #4183D7;
+  font-size: 50px;
+}
+
+h2 {
+  color: #4183D7;
+  font-size: 42px;
+  letter-spacing: -2px;
+  text-align: left;
+}
+.list {
+  color: #555;
+  font-size: 22px;
+  padding: 0 !important;
+  width: 500px;
+  border: 1px solid #dedede;
+}
+.list li {
+  list-style: none;
+  background-color : #f8f8f8;
+  border-bottom: 1px dotted #ccc;
+  text-indent: 25px;
+  height: auto;
+  padding: 10px;
+  text-transform: capitalize;
+  color: #3498db;
+}
+li a {
+  float: right;
+  text-decoration: none;
+  color: red;
+}
+
+@media (-webkit-min-device-pixel-ratio: 2), /* Webkit-based browsers */
+       (min--moz-device-pixel-ratio: 2),    /* Older Firefox browsers (prior to Firefox 16) */
+       (min-resolution: 2dppx),             /* The standard way */
+       (min-resolution: 192dpi)             /* dppx fallback */
+{
+	body {
+		background-image: url('linedpaper/linedpaper_@2x.png');
+	}
+}
+.redmi{
+  height: 3px;
+  width: 200px;
+  margin: 0px 3px;
+  padding: 13px 24px;
+}
